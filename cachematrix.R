@@ -1,5 +1,5 @@
 ## This function caches the inverse of a matrix to preserve computation 
-## cacheSolve computes the inverse of a special matrix and stores it in the cache
+## makeCacheMatrix computes the inverse of a special matrix and stores it in the cache
 makeCacheMatrix <- function(x=matricx()){
         m <-null
         set <-function(y){
